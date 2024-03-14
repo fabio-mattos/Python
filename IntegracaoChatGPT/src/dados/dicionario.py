@@ -1,15 +1,14 @@
-# Dicinário
-# Guarda o dados através de chave e valor
 aluno = {}
 
-aluno['nome'] = 'Joao'
+aluno['nome'] = 'João'
 aluno['idade'] = 20
 aluno['curso'] = 'Engenharia'
 
 print(aluno)
 
-#Mostrando o nome do aluno
-print(f"O nome do aluno e: {aluno['nome']}")
+# Acessando o nome do aluno
+print(aluno['nome'])
 
-#Excluindo
 del aluno['idade']
+
+print(aluno)
