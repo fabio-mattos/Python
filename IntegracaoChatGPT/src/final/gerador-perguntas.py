@@ -1,7 +1,11 @@
 from blessings import Terminal
 from openai import OpenAI
 import json
-
+"""
+  Deve-se pegar a key no site www.openai.com
+  Mas tem que ter credito
+  Está funcionando somente no linux por causa do componente terminal
+"""
 client = OpenAI(
     api_key=''
 )
