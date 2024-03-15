@@ -6,7 +6,7 @@ import json
   Está funcionando somente no linux por causa do componente terminal
 """
 client = OpenAI(
-    api_key=''
+    api_key='?????'
 )
 
 
